@@ -5,6 +5,7 @@
   "type": "module",
   "license": "UNLICENSED",
   "scripts": {
+    "scss": "sass --watch src/scss:public/css",
     "start": "node bin/server.js",
     "build": "node ace build",
     "dev": "node ace serve --watch",
@@ -45,6 +46,7 @@
     "eslint": "^8.56.0",
     "pino-pretty": "^10.3.1",
     "prettier": "^3.2.4",
+    "sass": "^1.72.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
     "vite": "^5.0.12"
@@ -59,7 +61,10 @@
     "@adonisjs/vite": "^2.0.2",
     "@vinejs/vine": "^1.7.1",
     "better-sqlite3": "^9.4.3",
+    "bootstrap": "^4.3.1",
+    "bootstrap-icons": "^1.11.3",
     "edge.js": "^6.0.1",
+    "jquery": "^3.7.1",
     "luxon": "^3.4.4",
     "reflect-metadata": "^0.2.1"
   },
